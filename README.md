@@ -32,7 +32,11 @@ The HTML file includes:
 - Windows OS (any version with WMI)
 - Visual Studio or MSVC (`cl.exe`)
 - Admin privileges (recommended for full WMI access)
+## Note
+The html file will be generated in the executables directory
 ## Build with MSVC
 Also can build the solution to generate executable
 ```bash
 cl /EHsc /W4 /DUNICODE /D_UNICODE main.cpp /link wbemuuid.lib comsupp.lib
+
+
